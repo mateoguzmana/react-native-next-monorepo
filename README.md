@@ -2,7 +2,9 @@
 
 ![Repository Banner](https://i.imgur.com/wPdflX8.png[/img])
 
-This is a basic monorepo for React Native and Next.js.
+This is a basic monorepo for React Native and Next.js using React Native Web to share components across the packages.
+
+Note that this project doesn't use Expo, if you are looking for that there are other alternatives out there.
 
 ## Getting Started
 

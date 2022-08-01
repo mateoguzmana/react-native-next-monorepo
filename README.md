@@ -14,10 +14,14 @@ yarn all
 
 To run the app in iOS, Android & web.
 
-OR
+Or
 
 ```
 yarn ios
 yarn android
 yarn web
 ```
+
+## Contributing
+
+I intend to keep this repository as simple as possible. If you want to add libraries or add features, please do fork the repo. I will be only accepting fixes and improvements for the core/basic functionalities.

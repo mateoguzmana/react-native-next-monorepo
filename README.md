@@ -8,7 +8,7 @@ Note that this project doesn't use Expo, if you are looking for that there are o
 
 ## Getting Started
 
-Fork or clone this repo and then use
+Fork or clone this repo and then run:
 
 ```
 yarn all
@@ -23,6 +23,8 @@ yarn ios
 yarn android
 yarn web
 ```
+
+To run the project in a specific platform.
 
 ## Contributing
 

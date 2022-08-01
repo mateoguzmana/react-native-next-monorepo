@@ -1,52 +1,26 @@
 import React from 'react';
-import { Platform, SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text } from 'react-native';
 
 export function App() {
   return (
-    <SafeAreaView style={styles.root}>
-      <Text style={styles.text}>Hello from React Native!</Text>
-      <View style={styles.platformRow}>
-        <Text style={styles.text}>Platform: </Text>
-        <View style={styles.platformBackground}>
-          <Text style={styles.platformValue}>{Platform.OS}</Text>
-        </View>
-      </View>
+    <SafeAreaView style={styles.container}>
+      <Text style={styles.title}>React Native + Next.js Monorepo</Text>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  root: {
+  container: {
     height: '100%',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'white'
+    backgroundColor: 'black'
   },
-  logo: {
-    width: 120,
-    height: 120,
-    marginBottom: 20
-  },
-  text: {
+  title: {
     fontSize: 28,
-    fontWeight: '600'
-  },
-  platformRow: {
-    marginTop: 12,
-    flexDirection: 'row',
-    alignItems: 'center'
-  },
-  platformValue: {
-    fontSize: 28,
-    fontWeight: '500'
-  },
-  platformBackground: {
-    backgroundColor: '#ececec',
-    borderWidth: StyleSheet.hairlineWidth,
-    borderColor: '#d4d4d4',
-    paddingHorizontal: 6,
-    borderRadius: 6,
-    alignItems: 'center'
+    fontWeight: '600',
+    color: 'white',
+    textAlign: 'center'
   }
 });
 

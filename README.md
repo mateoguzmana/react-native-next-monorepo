@@ -1,5 +1,7 @@
 # react-native-next-monorepo
 
+![Repository Banner](https://i.imgur.com/wPdflX8.png[/img])
+
 This is a basic monorepo for React Native and Next.js.
 
 ## Getting Started

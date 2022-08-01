@@ -10,10 +10,13 @@
       "**/react",
       "**/react-dom",
       "**/react-native",
-      "**/react-native/**"
+      "**/react-native/**",
+      "**/react-native-web"
     ]
   },
   "scripts": {
+    "android": "yarn workspace @react-native-next-monorepo/mobile android",
+    "ios": "yarn workspace @react-native-next-monorepo/mobile ios",
     "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock"
   }
 }

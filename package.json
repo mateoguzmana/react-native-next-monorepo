@@ -15,6 +15,7 @@
     ]
   },
   "scripts": {
+    "all": "yarn android & yarn ios & yarn web",
     "android": "yarn workspace @react-native-next-monorepo/mobile android",
     "ios": "yarn workspace @react-native-next-monorepo/mobile ios",
     "web": "yarn workspace @react-native-next-monorepo/next dev",

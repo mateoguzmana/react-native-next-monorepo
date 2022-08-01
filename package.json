@@ -19,6 +19,7 @@
     "android": "yarn workspace @react-native-next-monorepo/mobile android",
     "ios": "yarn workspace @react-native-next-monorepo/mobile ios",
     "web": "yarn workspace @react-native-next-monorepo/next dev",
-    "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock"
+    "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock",
+    "prettier": "prettier --write '**/*.{ts,js,css,html}'"
   }
 }

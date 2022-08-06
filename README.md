@@ -1,4 +1,4 @@
-# react-native-next-monorepo
+<h1 align="center">React Native + Next.js Monorepo</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/-React Native-gray" />

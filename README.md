@@ -1,5 +1,12 @@
 # react-native-next-monorepo
 
+<p align="center">
+  <img src="https://img.shields.io/badge/-React Native-gray" />
+  <img src="https://img.shields.io/badge/-Next.js-green" />
+  <img src="https://img.shields.io/badge/-Monorepo-blue" />
+  <img src="https://img.shields.io/badge/-React Native Web-red" />
+</p>
+
 ![Repository Banner](https://i.imgur.com/wPdflX8.png[/img])
 
 This is a basic monorepo for React Native and Next.js using React Native Web to share components across the packages.

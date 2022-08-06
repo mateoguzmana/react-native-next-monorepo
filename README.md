@@ -8,9 +8,16 @@ Note that this project doesn't use Expo, if you are looking for that there are o
 
 ## Getting Started
 
-Fork or clone this repo and then run:
+Fork or clone this repo and then install the dependencies:
 
+```bash
+yarn
+cd packages/mobile && npx pod-install
 ```
+
+## Building the project
+
+```bash
 yarn all
 ```
 
@@ -18,7 +25,7 @@ To run the app in iOS, Android & web.
 
 Or
 
-```
+```bash
 yarn ios
 yarn android
 yarn web
